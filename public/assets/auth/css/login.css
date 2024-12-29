@@ -1,0 +1,69 @@
+body {
+    background: linear-gradient(-45deg, #f093fb, #f5576c, #4facfe, #6f86d6);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+    font-family: 'Arial', sans-serif;
+}
+
+@keyframes gradientBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.illustration-banner img {
+    max-width: 100%;
+    height: auto;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+}
+
+.login-form img {
+    width: 100px;
+    height: auto;
+}
+
+.login-form h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-form input {
+    height: 45px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.login-form button {
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.actionBtn{
+    text-decoration: none;
+}
+.actionBtn:hover{
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    .login-form {
+        padding: 20px;
+    }
+
+    .login-form img {
+        width: 80px;
+    }
+
+    .login-form h2 {
+        font-size: 20px;
+    }
+
+    .login-form input, .login-form button {
+        height: 40px;
+        font-size: 14px;
+    }
+}
